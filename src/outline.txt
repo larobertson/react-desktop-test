@@ -1,0 +1,13 @@
+For the App, we have electron set up and working with React. 
+
+For functionality,
+It should implement OpenCV to identify faces
+
+
+It should contain an upload button
+  allow users to upload picture of their choice
+It should contain a canvas of the uploaded picture
+  On the canvas, user should be able to click detected face, and tag image
+It should contain a save button
+  it should allow the user to save their newly tagged image
+  

@@ -1,5 +1,5 @@
 const { app, BrowserWindow } = require('electron')
-const { path } = require('path')
+const path = require('path')
 const url = require('url')
 require('dotenv').config();
 
