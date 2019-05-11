@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/styles": "^3.0.0-alpha.10",
     "dotenv": "^8.0.0",
-    "opencv4nodejs": "^4.15.0",
     "path": "^0.12.7",
-    "popper.js": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0"
@@ -39,7 +39,6 @@
   },
   "devDependencies": {
     "electron": "^5.0.1",
-    "foreman": "^3.0.1",
-    "node-cmake": "^2.5.1"
+    "foreman": "^3.0.1"
   }
 }
