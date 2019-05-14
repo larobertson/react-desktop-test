@@ -13,54 +13,43 @@ const styles = {
   paper: {
     backgroundColor: '#cfd8dc',
     minHeight: '150px',
-    boxShadow: '0 3px 5px 2px #263238'
+    boxShadow: '0 3px 5px 2px #263238',
+    margin: 0,
+    padding: 0
   }
 };
 
 function App() {
 
   return (
-    <Grid
-      container
-      direction="column"
-      justify="flex-start"
-      alignItems="stretch"
-    >
-      <Grid 
-        item
-        justify="flex-start"
-        style={styles.topGrid}
+    <div>
+      <Paper
+        style={styles.paper}
       >
-        <Paper
-          style={styles.paper}
-        >
-          <h1>Hello Electron!</h1>
-        </Paper>
-      </Grid>
+        <h1>Hello Electron!</h1>
+      </Paper>
 
-      <Grid item>
-        <Grid
-          container
-          direction="row"
-          justify="space-evenly"
-          alignItems="flex-start"
-          xs="auto"
-          wrap="wrap"
+      <Grid
+        container
+        direction="row"
+        justify="space-evenly"
+        alignItems="flex-start"
+        xs="auto"
+        wrap="wrap"
+        spacing={40}
+      >
+        <Grid 
+          item
         >
-          <Grid 
-            item
-          >
-            <Upload />
-          </Grid>
-          <Grid 
-            item
-            spacing="8"
-          >
-            <Apply />
-          </Grid>
+          <Upload />
+        </Grid>
+        <Grid 
+          item
+        >
+          <Apply />
         </Grid>
       </Grid>
-    </Grid>
+    </div>
   );
 }
 
