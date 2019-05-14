@@ -12,7 +12,7 @@ function App() {
       <Grid
         container
         direction="row"
-        justify="center"
+        justify="space-evenly"
         alignItems="flex-end"
         xs="auto"
         wrap="wrap"
