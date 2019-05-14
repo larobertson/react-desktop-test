@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default canvasImg () => {
+export default function CanvasImg() {
   return (
     <canvas id="imageCanvas" ></canvas>
   )

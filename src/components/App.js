@@ -1,16 +1,25 @@
 import React from 'react';
 import Upload from './upload';
 import Apply from './apply';
-// import logo from '../logo.svg';
-import '../App.css';
+import Grid from '@material-ui/core/Grid';
+// import '../App.css';
 
-App() => {
+function App() {
 
   return (
     <div className="modal">
       <h1>Hello Electron!</h1>
-      <Upload />
-      <Apply />
+      <Grid
+        container
+        direction="row"
+        justify="center"
+        alignItems="flex-end"
+        xs="auto"
+        wrap="wrap"
+      >
+        <Upload />
+        <Apply />
+      </Grid>
     </div>
   );
 }
