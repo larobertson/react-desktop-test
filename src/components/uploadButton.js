@@ -15,7 +15,7 @@ const UploadButton = withStyles({
     color: 'white',
     height: 48,
     padding: '0 30px',
-    boxShadow: '0 3px 5px 2px #263238',
+    boxShadow: '0 3px 5px 2px #263238'
   },
   label: {
     textTransform: 'capitalize',

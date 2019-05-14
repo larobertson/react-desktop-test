@@ -17,13 +17,19 @@
     top: 0;
 }
 
-/* Example stylistic flourishes */
+/* stylistic flourishes */
 
 .fileContainer {
-    background: none;
-    border-radius: .5em;
-    float: left;
-    padding: 0;
+    background-color: #cfd8dc;
+    border: 0;
+    color: white;
+    padding: 0px;
+    box-shadow: 0 3px 5px 2px #263238;
+}
+
+.fileContainer:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.08);
 }
 
 .fileContainer [type=file] {
